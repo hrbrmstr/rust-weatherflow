@@ -1,8 +1,13 @@
 [package]
-name = "rust-weatherflow"
-version = "0.1.0"
-edition = "2021"
+name = "weatherflow"
+version = "0.2.0"
+description = "Basic command line UDP broadcast datalogger for Weatherflow Tempest stations"
+license = "MIT"
+authors = [ "boB Rudis (@hrbrmstr)" ]
+homepage = "https://github.com/hrbrmstr/rust-weatherflow"
 
+edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = { version = "4.0.9", features = ["derive"] }
