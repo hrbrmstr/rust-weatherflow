@@ -1,6 +1,6 @@
 [package]
 name = "weatherflow"
-version = "0.2.0"
+version = "0.2.1"
 description = "Basic command line UDP broadcast datalogger for Weatherflow Tempest stations"
 license = "MIT"
 authors = [ "boB Rudis (@hrbrmstr)" ]
